@@ -23,3 +23,12 @@ insert into estoque (idestoque, produto_idproduto, qtnde, data) values (22, 22, 
 insert into estoque (idestoque, produto_idproduto, qtnde, data) values (23, 23, 14, '2007-04-09');
 insert into estoque (idestoque, produto_idproduto, qtnde, data) values (24, 24, -92, '2004-12-14');
 insert into estoque (idestoque, produto_idproduto, qtnde, data) values (25, 25, 58, '2010-02-18');
+insert into produto_has_fornecedor 
+values(1,2);
+insert into produto_has_fornecedor 
+values(2,2);
+insert into produto_has_fornecedor 
+values(4,3);
+insert into produto_has_fornecedor 
+values(8,6);
+
